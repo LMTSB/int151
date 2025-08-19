@@ -86,9 +86,9 @@ p(sum1(...nums))
 //const ar = trimmed.split(); 
 function getFreqOfWords(sentence) {
     if (typeof(sentence) !== String) {return undefined} // input validation 
-    const low = sentence.toLowerCase()
-    const trimmed = low.trim();
-    const text = trimmed.split() 
+    const low = sentence.toLowerCase(); //change sentence into lowercase
+    const trimmed = low.trim(); // trim lowercased sentence
+    const text = trimmed.split(); // split trimmed sentence into text
     for (x of arguments) {
         text[x]
     }
