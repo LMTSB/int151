@@ -9,4 +9,5 @@
     - include => find array items that match the condition (condition = true)
     - .some => "for some" means that at least one value in array match the conditions make the result to true
     - .every => "for every" means that just 1 value that doesn't match the conditions could lead result to false
-    - reduce => merge value of number in array  
+    - reduce => merge value of number in array 
+    - fill => this method changes all element in an array to static value (value,after ... index,until ... index) 
