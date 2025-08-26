@@ -44,9 +44,14 @@ p(`totalPrice: ${totalPrice}`);
 //p(cart.unshift({ productId: 5555, price: 1, quantity: 4 }));
 
 const words3 = ["mango","apple","mangosteen","orange","mangoes"]
-words3.splice(2 ,1 ,"banana");
-p(words3);
-words3.splice(3 ,2);
-p(words3);
-words3.splice(2 ,1 ,"melon" ,"cherry");
+//words3.splice(2 ,1 ,"banana");
+//p(words3);
+//words3.splice(3 ,2);
+//p(words3);
+//words3.splice(2 ,1 ,"melon" ,"cherry");
+// p(words3);
+
+p(words3.slice(2));
+p(words3.slice(0,2));
+words3.fill(null);
 p(words3);
