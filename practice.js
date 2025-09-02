@@ -15,3 +15,8 @@ function getPassingNames(list) {// gain input and
 const passingNames = getPassingNames(studentsScores);
 console.log(passingNames);
 
+//make a numeric sort function
+
+function num_sort() {
+    
+}
