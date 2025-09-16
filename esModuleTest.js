@@ -7,5 +7,3 @@ console.log(repeat("I'm good"));
 console.log(VAT);
 console.log(getLength("Sup"));
 console.log(b1);
-
- 
